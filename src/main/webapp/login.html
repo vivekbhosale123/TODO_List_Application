@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Login Page</title>
+	<link rel="stylesheet" href="css/login.css">
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+
+<body>
+	<form name="frm" action="Logincontroller" method="post">
+		<div class="container">
+			<div class="row">
+				<h1>Login Page</h1>
+				<input type="text" name="username" value="" placeholder="Enter Username" class="control"
+					onkeyup="nameValidation(this.value)"><br>
+				<input type="password" name="password" value="" placeholder="Enter Password" class="control"
+					onkeyup="PasswordValidation(this.value)"><br>
+				<input type="submit" name="s" value="Login" />
+				<li><span>Do you have an account </span><a href="register">Sign Up</a></li>
+			</div>
+		</div>
+		<h2 id="s"></h2>
+	</form>
+</body>
+
+</html>

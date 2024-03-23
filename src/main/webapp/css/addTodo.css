@@ -1,0 +1,60 @@
+body{
+	background-color: blueviolet;
+}
+.gradient-custom {
+background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.card-custom {
+border-bottom-left-radius: 10% 50%;
+border-top-left-radius: 10% 50%;
+background-color: #f8f9fa ;
+}
+
+
+.input-custom {
+background-color: white ;
+}
+
+.white-text {
+color: hsl(52, 0%, 98%);
+font-weight: 100 ;
+font-size: 14px;
+}
+
+.back-button {
+background-color: hsl(52, 0%, 98%);
+font-weight: 700;
+color: black ;
+margin-top: 50px ;
+}
+.form-outline {
+    width: 561px;
+}
+.card.card-custom.pb-4 {
+    width: 707px;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+button.btn.btn-primary.btn-rounded {
+    margin-left: 195px;
+    width: 169px;
+}
+.mb-4{
+    margin-bottom: 0.5rem!important;
+}
+h3.mt-3.text-white {
+    font-size: 50px;
+    margin-left: 60px;
+}
+p.white-text {
+    font-size: 26px;
+    margin-left: 60px;
+}
+button.btn.btn-white.btn-rounded.back-button {
+    width: 175px;
+    margin-left: 54px;
+}
+button.btn.btn-white.btn-rounded.back-button:hover{
+	background-color: #222;
+}

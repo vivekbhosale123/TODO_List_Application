@@ -1,0 +1,148 @@
+.nav-link:hover{
+       color: darkorange;
+       border-bottom: 1px solid;
+       border-bottom-color: darkorange;
+}
+.back{
+	background-color: #222;
+}
+ .navbar-brand span{
+	 color: red;
+ }
+ a.nav-link {
+    color: white;
+    margin-left: 100px;
+}
+.navbar-nav{
+	margin-left: 200px;
+	font-size: 20px;
+}
+a.navbar-brand{
+	color: white;
+	font-size: 30px;
+}
+/*add todo css*/
+.pp {
+    width: 330px;
+    height: 520px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 600px;
+    background-color:black;
+    /*box-shadow: 5px 10px 15px 10px mediumslateblue;*/
+}
+input.control{
+    width: 240px;
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+}
+input.control1 {
+	width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color:  #222;
+    color: white;
+}
+input.control1:hover{
+	background-color: orange;
+}
+/*view all todo*/
+.vs {
+    margin-left: 360px;
+    border: 2px solid black;
+    width: 800px;
+    background-color:slategrey;
+    color: white;
+    height: 30vh;
+    margin-top: 10px;
+    /*box-shadow: 5px 10px 15px 10px mediumslateblue;*/
+}
+.vs tr td{
+	border: 2px solid white;
+	padding: 10px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.vs tr th{
+	border: 2px solid white;
+	padding: 10px;
+	border-collapse: collapse;
+	text-align: center;
+}
+td a{
+	color:white;
+}
+/*Profile Update*/
+.vp {
+    width: 360px;
+    height: 450px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 600px;
+    background-color:slategrey;
+   /* box-shadow: 5px 10px 15px 10px mediumslateblue;*/
+}
+input.control{
+    width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+input.control1 {
+	width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color:  #222;
+    color: white;
+}
+input.control1:hover{
+	background-color: orange;
+}
+h3{
+	margin-left: 470px;
+	font-size: 30px;
+}
+/*RegisterAdd css*/
+.vv {
+    width: 300px;
+    height: 385px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 600px;
+    border: 2px solid lightgreen;
+    background-color:slategrey;
+}
+input.control{
+    width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+input.control1 {
+	width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color:  #222;
+    color: white;
+}
+input.control1:hover{
+	background-color: orange;
+}
+/*search css*/
+input.con {
+    width: 800px;
+    height: 40px;
+    margin-left: 360px;
+    margin-top: 30px;
+}
+input.cono {
+    margin-top: 22px;
+    width: 99px;
+    height: 39px;
+}
+

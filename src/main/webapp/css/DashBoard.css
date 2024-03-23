@@ -1,0 +1,176 @@
+body{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	background-color:plum;
+}
+.container{
+	width: 100%;
+	margin: auto;
+}
+.row{
+	background-color: #222;
+    color: white;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25%;
+    text-align: center;
+    align-items: center;	
+}
+.row .logo span{
+	color: red;
+}
+.row h1.logo
+{
+	font-size: 45px;
+    line-height: 36px;
+    margin: 55px 10px;
+}
+.row nav ul li a{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    margin: 24px 0;
+}
+.row nav ul li a:hover{
+    letter-spacing: 4px;
+    color: orangered;
+}
+.row nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.row nav ul li{
+    margin-bottom: 40px;
+}
+/*RegisterAdd css*/
+.vv {
+    width: 300px;
+    height: 385px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 600px;
+    border: 2px solid lightgreen;
+    background-color:mediumslateblue;
+    box-shadow: 5px 10px 15px 10px plum;
+}
+input.control{
+    width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+input.control1 {
+	width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color:  #222;
+    color: white;
+}
+input.control1:hover{
+	background-color: orange;
+}
+/*Profile Update*/
+.vp {
+    width: 360px;
+    height: 450px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 800px;
+    background-color:mediumslateblue;
+    box-shadow: 5px 10px 15px 10px plum;
+}
+input.control{
+    width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+input.control1 {
+	width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color:  #222;
+    color: white;
+}
+input.control1:hover{
+	background-color: orange;
+}
+h3{
+	margin-left: 470px;
+	font-size: 30px;
+}
+/*todoAdd css*/
+.pp {
+    width: 340px;
+    height: 450px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 800px;
+    background-color:mediumslateblue;
+    box-shadow: 5px 10px 15px 10px plum;
+}
+input.control{
+    width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+input.control1 {
+	width: 240px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    background-color:  #222;
+    color: white;
+}
+input.control1:hover{
+	background-color: orange;
+}
+h4{
+	margin-left: 470px;
+	font-size: 30px;
+}
+
+/*view all todo*/
+.vs {
+    margin-left: 516px;
+    border: 2px solid black;
+    width: 800px;
+    background-color:darkturquoise;
+    color: blueviolet;
+    height: 30vh;
+    margin-top: 43px;
+}
+tr,td,th{
+	border: 2px solid black;
+	padding: 10px;
+	border-collapse: collapse;
+	text-align: center;
+}
+td a{
+	color: blueviolet;
+}
+/*search css*/
+input.con {
+    width: 790px;
+    height: 40px;
+    margin-left: 515px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
